@@ -23,7 +23,7 @@ public class Registration
 	@FindBy (xpath="//*[text()='Repeat Password']/following-sibling::input")
 	WebElement RepeatPassword;
 	
-	@FindBy(xpath="//button[text()='Clear']")
+	@FindBy(xpath="//button[text()='Clea']")
 	WebElement Reset;
 	
 	
