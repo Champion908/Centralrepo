@@ -1,0 +1,4 @@
+Pages\Registration.class
+Pages\HomePage.class
+Pages\SearchPage.class
+qa\DriverFactory.class
