@@ -6,7 +6,7 @@ Then Page title should contain "HYR Tutorials"
 
 Scenario: Fill the all detail
 Given User is at the landing page
-When Enter the First Name "Vinod"
+When Enter the First Name "Binod"
 And Enter the Last Name "Mishra"
 And Enter the Email "abc@gmail"
 And Enter the Password "Test@123"
