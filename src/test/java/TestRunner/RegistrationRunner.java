@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
 		
 		features = {"src\\test\\resources\\applicationfeature\\Registration.feature"},
 		glue = {"Stepdefination","Hooks"},
-		plugin= {"pretty","html:target/cucumber-reports/Registrationreports.html"}
+		plugin= {"pretty","html:target/cucumber-reports/Registrationreports.html"
+				,"json:target/cucumber-report.json"}
 		
 		
 		)
